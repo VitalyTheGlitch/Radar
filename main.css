@@ -1,0 +1,55 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 800;
+    margin: 5px;
+}
+
+button {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1.2em;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2em;
+}
+
+.app {
+    display: none;
+}
+
+.blink-me {
+    font-size: 1.5em;
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.data {
+    font-size: 1.5em;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 1em;
+}

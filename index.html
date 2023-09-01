@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SkyScan</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <section class="intro">
+        <section>
+            <h1>✈️ SkyScan 📡</h1>
+            <button>Connect to dongle</button>
+        </section>
+    </section>
+
+    <main class="app">
+        <div id="canvas">
+            <p class="blink-me">Waiting for airplane...</p>
+            <p class="data"></p>
+        </div>
+    </main>
+
+    <script src="rtlsdr.js"></script>
+    <script src="main.mjs" type="module"></script>
+</body>
+
+</html>
